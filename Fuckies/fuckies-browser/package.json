@@ -1,0 +1,49 @@
+{
+  "name": "bc-works-browser",
+  "version": "1.0.0",
+  "description": "A modern, CORS-free developer browser built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "dist": "electron-builder --publish=never"
+  },
+  "keywords": [
+    "electron",
+    "browser",
+    "webview",
+    "developer",
+    "cors-free"
+  ],
+  "author": "bC Works",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^37.1.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.bcworks.browser",
+    "productName": "bC Works Browser",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.developer-tools"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
