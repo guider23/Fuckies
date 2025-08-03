@@ -12,7 +12,7 @@
 This project aims to emulate the **look and feel of macOS** on Windows, combining style and functionality. Here's what it includes (and what's planned):
 
 ### 💥 Currently Implemented
--  **macOS-style window buttons** (Close, Minimize, Maximize)
+-  **macOS-style browser
 -  **macOS-like cursor** (System-wide or app-specific)
 
 
