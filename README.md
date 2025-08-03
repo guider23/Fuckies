@@ -2,6 +2,8 @@
 
 > A project that brings the elegant **macOS aesthetic** to your **Windows machine** — one tweak at a time.
 
+> I am currently working on a detailed implementation guide. Documentation is under development.
+
 <img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/f7b134a4-6812-4411-9e6a-ecf617e47101" />
 
 
